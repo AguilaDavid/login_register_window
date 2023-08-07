@@ -15,10 +15,10 @@ layout_login = [
 
 ''' window = Login window
 _______________________________
-|User			               |
-|[			                  ]|
-|Password		               |
-|[			                  ]|
+|User			       |
+|[			      ]|
+|Password		       |
+|[			      ]|
 |[Login] [registration]	       |
 |______________________________|
 
@@ -36,13 +36,13 @@ layout_registration = [
 
 ''' windowR = Registration window
 _______________________________
-|Name			               |
-|[			                  ]|
-|Password		               |
-|[			                  ]|
-|Email			               |
-|[			                  ]|
-|[send]			               |
+|Name			       |
+|[			      ]|
+|Password		       |
+|[			      ]|
+|Email			       |
+|[			      ]|
+|[send]			       |
 |______________________________|
 
 '''

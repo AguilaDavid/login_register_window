@@ -26,3 +26,11 @@ In the python code, two windows are created, one with the longin and the other w
 
 The table is protected. Ou seja, when a user registers but an error occurs, all the dice entered are ignored and the last safe commit is returned.
 
+```python
+# Transition: Either all data is sent correctly or none is sent
+try:
+    cur.execute("QUERY")
+    conn.commit()
+except Exception:
+    conn.rollback()
+```

@@ -8,7 +8,7 @@ For this project it is recommended to use ``pgAdmin4`` as database manager.
 
 First of all, a table called ``client`` was created to store the information about the client's login. These dice are used to validate the login.
 
-![Captura de Ecrã (2393)](https://github.com/AguilaDavid/login_register_window/assets/125582704/3bfac159-8154-41cc-82be-d3d6a69bc790)
+![Captura de Ecrã (2393)](https://github.com/AguilaDavid/login_register_window/assets/125582704/2fea8502-a099-4659-b4cb-12610817655f)
 
 * This table contains a unique id for each client automatically generated using ``SERIAL``. This method is advantageous in an environment with recurrence because the database manager itself generates and processes the ID.
 
@@ -19,10 +19,10 @@ First of all, a table called ``client`` was created to store the information abo
 In the python code, two windows are created, one with the longin and the other with the registration form. Whenever one window is open the other remains hidden.
 
 ### Login window
-![Captura de Ecrã (2391)](https://github.com/AguilaDavid/login_register_window/assets/125582704/0b9fe80e-aee6-4c64-83ca-560dcd5bddec)
+![Captura de Ecrã (2391)](https://github.com/AguilaDavid/login_register_window/assets/125582704/2c67048a-936f-4f80-b0c5-b8d0e2a72e82)
 
 ### Registration window
-![Captura de Ecrã (2390)](https://github.com/AguilaDavid/login_register_window/assets/125582704/8c57c361-0e13-4886-8c8e-628447cb6784)
+![Captura de Ecrã (2390)](https://github.com/AguilaDavid/login_register_window/assets/125582704/880cf9df-8de3-48e4-81b1-f77c60f7f006)
 
 The table is protected. Ou seja, when a user registers but an error occurs, all the dice entered are ignored and the last safe commit is returned.
 

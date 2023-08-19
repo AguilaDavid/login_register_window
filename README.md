@@ -4,7 +4,7 @@ This repository contains test code for creating a login and registration window.
 
 For this project it is recommended to use ``pgAdmin4`` as database manager.
 
-## Explication
+## Explanation
 
 First of all, a table called ``client`` was created to store the information about the client's login. These dice are used to validate the login.
 
@@ -16,7 +16,7 @@ First of all, a table called ``client`` was created to store the information abo
 
 * The ``registration_dat`` is completed by a trigger during a table insert
 
-In the python code, two windows are created, one with the longin and the other with the registration form. Whenever one window is open the other remains hidden.
+In the python code, two windows are created, one with the login and the other with the registration form. Whenever one window is open the other remains hidden.
 
 ### Login window
 ![Captura de Ecrã (2391)](https://github.com/AguilaDavid/login_register_window/assets/125582704/2c67048a-936f-4f80-b0c5-b8d0e2a72e82)
@@ -24,7 +24,7 @@ In the python code, two windows are created, one with the longin and the other w
 ### Registration window
 ![Captura de Ecrã (2390)](https://github.com/AguilaDavid/login_register_window/assets/125582704/880cf9df-8de3-48e4-81b1-f77c60f7f006)
 
-The table is protected. Ou seja, when a user registers but an error occurs, all the dice entered are ignored and the last safe commit is returned.
+The table is protected i.e. when a user registers but an error occurs, all the dice entered is ignored and the last safe commit is returned.
 
 ```python
 # Transition: Either all data is sent correctly or none is sent
